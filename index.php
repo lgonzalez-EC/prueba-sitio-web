@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Edge & Cloud | Especialistas en tecnologías de la información</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Edge & Cloud, edge, cloud, electromecánica, " name="keywords">
+    <meta
+        content="Somos una organización, que ofrece servicios de consultoría y soluciones integrales en tecnologías de la información y 
+    transformación digital con personal altamente calificado, generando mayor rentabilidad a nuestros clientes actuales y futuros"
+        name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.webp" rel="icon" type="image/x-icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0XDQFMG7Q1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-0XDQFMG7Q1');
+</script>
+
+<body>
+
+    <!--Loader start-->
+    <div id="loader">
+        <div class="loader-content">
+            <lottie-player src="img/loading.json" background="transparent" speed="1" loop autoplay>
+            </lottie-player>
+        </div>
+    </div>
+    <!--Loader end-->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid text-white d-none d-lg-flex" style="background-color:#00296b;">
+        <div class="container py-1">
+            <div class="d-flex align-items-center">
+                <a href="./">
+                    <img src="img/Logo_E&C.webp" alt="Logo_E&C" style="width: 120px; height: 27px;"></img>
+                </a>
+                <div class="ms-auto d-flex align-items-center">
+                    <a href="https://maps.app.goo.gl/nQvXBaEEGsBvrGgh6" class="text-white"><small class="ms-4"><i
+                                class="fa fa-map-marker-alt me-3"></i>Calle Circunvalación Pte. 1201-L4, Jardines del Moral</small></a>
+                    <a href="mailto:contacto@edgecloud.com.mx" class="text-white"><small class="ms-4"><i
+                                class="fa fa-envelope me-3"></i>contacto@edgecloud.com.mx</small></a>
+                    <a href="https://wa.me/524777547672?" class="text-white"><small class="ms-4"><i
+                                class="fab fa-whatsapp me-3"></i>477 754
+                            7672</small></a>
+                    <div class="ms-3 d-flex">
+                        <a class="btn btn-sm-square btn-light text-primary rounded-circle ms-0"
+                            href="https://www.facebook.com/profile.php?id=61553718295104" target="_blank"><i class="fab fa-facebook-f"
+                                style="color: #00296b;"></i></a>
+                        <a class="btn btn-sm-square btn-light text-primary rounded-circle ms-3"
+                            href="https://www.instagram.com/edgecloud.mx/" target="_blank"><i class="fab fa-instagram"
+                                style="color: #00296b;"></i></a>
+                        <a class="btn btn-sm-square btn-light text-primary rounded-circle ms-3"
+                            href="https://www.linkedin.com/company/edge-cloud/about/?viewAsMember=true" target="_blank"><i
+                                class="fab fa-linkedin-in" style="color: #00296b;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-white sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light p-lg-0 justify-content-center">
+                <a href="./" class="navbar-brand d-lg-none">
+                    <img src="img/Logo_E&C.webp" alt="Logo_E&C" style="width: 95px; height: 45px;"></img>
+                </a>
+                <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="./" class="nav-item nav-link active">Inicio</a>
+                        <a href="./nosotros/" class="nav-item nav-link">Nosotros</a>
+                        <a href="./contacto/" class="nav-item nav-link">Contactos</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!--Navbar End-->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid px-0 mb-5">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" id="bg">
+                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-lg-6 text-start">
+                                    <p class="fs-2 text-white animated slideInRight">Bienvenido a
+                                    <h2 class="display-1 animated slideInRight text-white">Edge & Cloud</h2>
+                                    </p>
+                                    <!-- <a href="" class="btn btn-primary rounded-pill py-3 px-5 animated slideInRight">Explore More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" id="bg">
+                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-end">
+                                <div class="col-lg-6 text-end">
+                                    <h3 class="display-1 text-white mb-5 animated slideInLeft">Ya llegamos</h3>
+                                    <!-- <a href="" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Explore More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!--About Us Start-->
+    <section class="container-fluid pt-5 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6" style="align-items: center;" data-aos="fade-right" data-aos-delay="100"
+                    data-aos-duration="1000" data-aos-once="true">
+                    <img id="about" src="img/Logo_E&C_.webp" alt="" style="width: 80%; ">
+                </div>
+                <div class="col-lg-6 d-flex" style="align-items: center;" data-aos="fade-left" data-aos-delay="100"
+                    data-aos-duration="1000" data-aos-once="true">
+                    <p class="fs-5">
+                        <strong>Edge & Cloud</strong>  es el aliado estratégico que garantiza la continuidad operativa de la industria. 
+
+                        Diseñamos soluciones integrales a través de servicios especializados en Mantenimiento Industrial, Electromecánica, Facilities y Proyectos de Nueva Generación. 
+                    </p>
+
+                    <p class="fs-5">Nuestro valor central es la integración: Aportamos inteligencia a los procesos productivos y máxima seguridad a las soluciones. </p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--About Us Start-->
+
+
+    <!-- Service prueba Start-->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h2 id="titleText" class="display-3 mb-5">Nuestros Servicios</h2>
+            </div>
+            <div class="row g-4 justify-content-around text-center">
+                <!-- Servicio 1 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item position-relative h-100">
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
+                                <img class="img-fluid" src="img/icon/cableado_estructurado.webp" alt="Icon">
+                            </div>
+                            <h3 class="mb-3">Fibra óptica y cableado estructurado</h3>
+                        </div>
+                        <!-- <div class="service-btn rounded-0 rounded-bottom">
+                            <a class="fw-medium" style="color: #00296b;" href="">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
+                        </div> -->
+                    </div>
+                </div>
+                <!-- Servicio 2 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item position-relative h-100">
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
+                                <img class="img-fluid" src="img/icon/electromecanica.webp" alt="Icon">
+                            </div>
+                            <h3 class="mb-3">Electromecánica</h3>
+                        </div>
+                        <!-- <div class="service-btn rounded-0 rounded-bottom">
+                            <a class="fw-medium" style="color: #00296b;" href="">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
+                        </div>  -->
+                    </div>
+                </div>
+                <!-- Servicio 3 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item position-relative h-100">
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
+                                <img class="img-fluid" src="img/icon/sistemas_seguridad.webp" alt="Icon">
+                            </div>
+                            <h3 class="mb-3">Sistemas de seguridad inteligentes</h3>
+                        </div>
+                        <!-- <div class="service-btn rounded-0 rounded-bottom">
+                            <a class="fw-medium" style="color: #00296b;" href="">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
+                        </div> -->
+                    </div>
+                </div>
+                <!-- Servicio 4 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item position-relative h-100">
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
+                                <img class="img-fluid" src="img/icon/remodelacion_mantenimiento.webp" alt="Icon">
+                            </div>
+                            <h3 class="mb-3">Remodelación y mantenimiento industrial</h3>
+                        </div>
+                        <!-- <div class="service-btn rounded-0 rounded-bottom">
+                            <a class="fw-medium" style="color: #00296b;" href="">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
+                        </div> -->
+                    </div>
+                </div>
+                <!-- Servicio 5 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item position-relative h-100">
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
+                                <img class="img-fluid" src="img/icon/soluciones_inalambricas.webp" alt="Icon">
+                            </div>
+                            <h3 class="mb-3">Soluciones inalambricas</h3>
+                        </div>
+                        <!-- <div class="service-btn rounded-0 rounded-bottom">
+                            <a class="fw-medium" style="color: #00296b;" href="">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
+                        </div> -->
+                    </div>
+                </div>
+                <!-- Servicio 6 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item position-relative h-100">
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
+                                <img class="img-fluid" src="img/icon/softwate_hardware.webp" alt="Icon">
+                            </div>
+                            <h3 class="mb-3">Soluciones de software y hardware</h3>
+                        </div>
+                        <!-- <div class="service-btn rounded-0 rounded-bottom">
+                            <a class="fw-medium" style="color: #00296b;" href="">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
+                        </div> -->
+                    </div>
+                </div>
+                <!-- Servicio 7 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item position-static h-100">
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
+                                <img class="img-fluid" src="img/icon/consultoria_proyectos.webp" alt="Icon">
+                            </div>
+                            <h3 class="mb-3">Consultoria de proyectos de nueva generación</h3>
+                        </div>
+                        <!-- <div class="service-btn rounded-0 rounded-bottom">
+                            <a class="fw-medium" style="color: #00296b;" href="">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
+                        </div> -->
+                    </div>
+                </div>
+                <!-- Servicio 8 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item position-static h-100">
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square rounded-circle mx-auto mb-4" style="width: 90px; height: 90px;">
+                                <img class="img-fluid" src="img/icon/maquinaria_herramientas.webp" alt="Icon">
+                            </div>
+                            <h3 class="mb-3">Maquinaria y equipamiento industrial</h3>
+                        </div>
+                        <!-- <div class="service-btn rounded-0 rounded-bottom">
+                            <a class="fw-medium" style="color: #00296b;" href="">Read More<i class="bi bi-chevron-double-right ms-2"></i></a>
+                        </div> -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--Service End -->
+
+
+    <div class="container-xxl d-flex py-5">
+        <div class="row">
+            <div class="col-lg-6 d-flex align-items-center">
+                <img class="img-fluid" src="img/proyect/work.jpg" alt="" style="width: 90%; margin: auto;">
+            </div>
+            <div class="col-lg-5 d-flex align-items-center px-4 py-3">
+                <div class="row">
+                    <div class="text-center text-lg-start py-4 pt-lg-0">
+                        <P class="text-center display-6">Profesionales comprometidos, resultados impecables.</hP>
+                        <p class="text-center fs-5">
+                            Edge & Cloud destaca por su amplio conocimiento en el sector y nuestra dedicación a la
+                            calidad nos sitúa como referentes en soluciones tecnológicas, centrando nuestra atención en
+                            la plena satisfacción de nuestros clientes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Project Start-->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center text-md-start pb-5 pb-md-0 wow fadeInUp" data-wow-delay="0.1s"
+                style="max-width: 500px;">
+                <p class="fs-5 fw-medium">Nuestros Proyectos</p>
+                <h1 class="display-6 mb-5">Hemos realizado muchos proyectos increíbles</h1>
+            </div>
+            <div class="owl-carousel project-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <!-- proyect 1 -->
+                <div class="project-item mb-5">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="img/proyect/project-1.jpg" alt="">
+                    </div>
+                    <div class="p-4">
+                        <p class="text-center d-block h5" style="color: #00296b;">Sistemas de seguridad inteligente</p>
+                        <!-- <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span> -->
+                    </div>
+                </div>
+                <!-- Proyecto 2 -->
+                <div class="project-item mb-5">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="img/proyect/project-2.jpg" alt="servicio">
+                    </div>
+                    <div class="p-4">
+                        <p class="text-center d-block h5" style="color: #00296b;">Electromecánica</p>
+                        <!-- <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span> -->
+                    </div>
+                </div>
+                <!-- Proyecto 3 -->
+                <div class="project-item mb-5">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="img/proyect/project-3.jpg" alt="servicio">
+                    </div>
+                    <div class="p-4">
+                        <p class="text-center d-block h5" style="color: #00296b;">Controles de acceso</p>
+                        <!-- <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span> -->
+                    </div>
+                </div>
+                <!-- Proyecto 4 -->
+                <div class="project-item mb-5">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="img/proyect/project-4.jpg" alt="servicio">
+                    </div>
+                    <div class="p-4">
+                        <p class="text-center d-block h5" style="color: #00296b;">Cableado estructurado</p>
+                        <!-- <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span> -->
+                    </div>
+                </div>
+                <!-- Proyecto 5 -->
+                <div class="project-item mb-5">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="img/proyect/project-5.jpg" alt="servicio">
+                    </div>
+                    <div class="p-4">
+                        <p class="text-center d-block h5" style="color: #00296b;">Cámaras de vigilancia inteligente</p>
+                        <!-- <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Project End -->
+
+
+    <!--Clients Star-->
+    <div class="container-xxl py-6">
+        <div class="container">
+            <div class="text-center text-md-start pb-5 pb-md-0 wow fadeInUp" data-wow-delay="0.1s"
+                style="max-width: 500px;">
+                <!-- <p class="fs-5 fw-medium">Clientes</p> -->
+                <h2 id="titleText" class="display-6 mb-5">Ellos han confiado en nosotros</h2>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.5s">
+                <div class="client-item p-4 p-lg-5 mb-5">
+                    <img class="mb-4" src="img/clientes/envases.png" alt="logo_cliente"
+                        style="width: 150px; height: auto; display: block; margin: 0 auto;">
+                </div>
+                <div class="client-item p-4 p-lg-5 mb-5">
+                    <img class="mb-4" src="img/clientes/psw.png" alt="logo_cliente"
+                        style="width: 150px; height: auto; display: block; margin: 0 auto;">
+                </div>
+                <div class="client-item p-4 p-lg-5 mb-5">
+                    <img class="mb-4" src="img/clientes/ryiobi.png" alt="logo_cliente"
+                        style="width: 150px; height: auto; display: block; margin: 0 auto;">
+                </div>
+                <div class="client-item p-4 p-lg-5 mb-5">
+                    <img class="mb-4" src="img/clientes/tsubaki.png" alt="logo_cliente"
+                        style="width: 150px; height: auto; display: block; margin: 0 auto;">
+                </div>
+                <div class="client-item p-4 p-lg-5 mb-5">
+                    <img class="mb-4" src="img/clientes/club_leon.png" alt="logo_cliente"
+                        style="width: 150px; height: auto; display: block; margin: 0 auto;">
+                </div>
+                <div class="client-item p-4 p-lg-5 mb-5">
+                    <img class="mb-4" src="img/clientes/gto.png" alt="logo_cliente"
+                        style="width: 150px; height: auto; display: block; margin: 0 auto;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Clients End-->
+
+
+    <!-- Formulario de cotización -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="fs-5 fw-medium">Consigue una cotización</p>
+                    <h2 id="titleText" class="display-6 mb-4">¿Necesitas algún experto? Contacta con nosotros</h2>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="row g-3">
+                        <form id="formularioCotizacion">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="nombre" name="nombre"
+                                            placeholder="Nombre" required>
+                                        <label for="nombre">Nombre</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="correo" name="correo"
+                                            placeholder="Correo" required>
+                                        <label for="correo">Correo</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="telefono" name="telefono"
+                                            placeholder="Telefono" required>
+                                        <label for="telefono">Celular</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Mensaje" id="mensaje" name="mensaje"
+                                            style="height: 130px" required></textarea>
+                                        <label for="mensaje">Mensaje</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft"
+                                        style="background-color: #00296b; color: white;" type="submit">Enviar</button>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin de formulario de cotización -->
+
+    <!-- Modal de confirmación -->
+    <div class="modal fade" id="modalConfirmacion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header"
+                    style="border-bottom: none; display: flex; justify-content: center; align-items: center;">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center" style="padding: 30px;">
+                    <img src="img/Logo_E&C_.webp" alt="Logo_E&C"
+                        style="width: 95px; height: 45px; margin-bottom: 20px;">
+                    <h5 class="modal-title" id="exampleModalLabel" style="margin-bottom: 15px;">¡Formulario enviado!
+                    </h5>
+                    <p style="font-size: 1.1rem; color: #333;">Tu formulario ha sido enviado exitosamente. Nos pondremos
+                        en contacto contigo pronto.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        //Envio de formulario 
+        document.getElementById('formularioCotizacion').addEventListener('submit', function (event) {
+            event.preventDefault(); // Evita el envío inmediato del formulario
+
+            const formData = new FormData(this); // Obtiene los datos del formulario
+
+            // Mostrar el modal de confirmación
+            const modal = new bootstrap.Modal(document.getElementById('modalConfirmacion'));
+            modal.show();
+
+            // Enviar los datos al servidor
+            fetch('form.php', {
+                method: 'POST',
+                body: formData
+            })
+                .then(response => {
+                    if (response.ok) {
+                        // Limpiar los campos después de un breve intervalo
+                        setTimeout(() => {
+                            this.reset(); // Limpia los campos del formulario
+                            modal.hide(); // Oculta el modal después de mostrarlo
+                        }, 6000); // 3 segundos para mostrar el modal
+                    } else {
+                        // Manejar errores si la respuesta no es exitosa
+                        alert('Hubo un problema al enviar el formulario. Inténtalo de nuevo más tarde.');
+                    }
+                })
+                .catch(error => {
+                    console.error('Error al enviar el formulario:', error);
+                    alert('Hubo un problema al enviar el formulario. Inténtalo de nuevo más tarde.');
+                });
+        });
+    </script>
+
+
+    <!-- Contacts Start -->
+    <div class="container-xxl py-5" data-wow-delay="0.5s">
+        <div class="container">
+            <div class="wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px; margin: auto;">
+                <h1 class="display-6 mb-5 text-center">Visitanos</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4" style="margin: auto;">
+                    <div class="d-flex border-bottom pb-3 mb-3">
+                        <div class="flex-shrink-0 btn-square rounded-circle" style="background-color: #00296b;">
+                            <i class="fa fa-map-marker-alt text-white"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h6>Dirección</h6>
+                            <span>Calle Circunvalación Pte. 1201-L4, Jardines del Moral, 37160 León de los Aldama, Gto.</span>
+                        </div>
+                    </div>
+                    <div class="d-flex border-bottom-0 pb-3 mb-3">
+                        <div class="flex-shrink-0 btn-square rounded-circle" style="background-color: #00296b;">
+                            <i class="fa fa-envelope text-white"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h6>Correo</h6>
+                            <span>contacto@edgecloud.com.mx</span>
+                        </div>
+                    </div>
+                    <div class="d-flex border-bottom pb-3 mb-3">
+                        <div class="flex-shrink-0 btn-square rounded-circle" style="background-color: #00296b;">
+                            <i class="fab fa-whatsapp text-white"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h6>Whatsapp</h6>
+                            <span>477 754 7672</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <iframe class="w-100 rounded"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4854.9142315614!2d-101.70059292374644!3d21.147149880532066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbf5b08c1d215%3A0x8132abb0533f91f2!2sCalle%20Circunvalaci%C3%B3n%20Pte.%201201-L4%2C%20Jardines%20del%20Moral%2C%2037160%20Le%C3%B3n%20de%20los%20Aldama%2C%20Gto.!5e1!3m2!1ses!2smx!4v1787710206501!5m2!1ses!2smx"
+                        frameborder="0" style="min-height: 300px; border:0;" allowfullscreen="" aria-hidden="false"
+                        tabindex="0"></iframe>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contacts End -->
+
+
+    <!-- Footer -->
+    <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="d-flex justify-content-center align-items-center mb-4">
+                <a href="./" class="d-flex justify-content-center align-items-center w-100">
+                    <img src="img/Logo_E&C.webp" alt="Logo_E&C" style="width: 250px; display: block; margin: 0 auto;">
+                </a>
+            </div>
+            <div class="row">
+                <div class="col-lg mb-3">
+                    <h3 class="text-white text-center">Contactos</h3>
+                    <p class="text-center"><i class="fa fa-envelope me-3"></i>contacto@edgecloud.com.mx</p>
+                    <p class="text-center"><i class="fab fa-whatsapp me-3"></i>477 754 7672</p>
+                </div>
+                <br>
+                <div class="col-lg mb-3">
+                    <h3 class="text-white text-center">Horario</h3>
+                    <p class="text-center">Lunes - Viernes</p>
+                    <p class="text-center">09:00 am - 06:00 pm</p>
+                </div>
+                <br>
+                <div class="col-lg mb-3 text-center">
+                    <h3 class="text-white text-center">Redes Sociales</h3>
+                    <div class="d-flex justify-content-center">
+                        <a class="btn btn-square btn-light rounded-circle me-3"
+                            href="https://www.facebook.com/profile.php?id=61553718295104" target="_blank"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-light rounded-circle me-3"
+                            href="https://www.instagram.com/edgecloud.mx/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square btn-light rounded-circle me-0"
+                            href="https://www.linkedin.com/company/edge-cloud/about/?viewAsMember=true" target="_blank"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center"><img id="gto" src="../img/marca_gto.png" alt="Marca_GTO"
+                style="max-width: 100%; width: 75px;"></img></div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row">
+                <div class="text-center">
+                    &copy; <a class="fw-medium text-light" href="#">Edge & Cloud</a>, Todos los derechos reservados.
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top"><i class="fa fa-arrow-up"></i></button>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
